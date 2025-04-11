@@ -5,7 +5,6 @@ Make sure git-lfs is installed (https://git-lfs.com)
 git lfs install
 git clone https://huggingface.co/Qwen/Qwen2.5-Coder-14B
 ```
-Importing a model from Safetensors weights
 First, create a Modelfile with a FROM command which points to the directory containing your Safetensors weights:
 ```
 FROM /path/to/safetensors/directory
